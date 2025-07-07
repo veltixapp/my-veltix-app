@@ -15,8 +15,8 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
       veltix:
-        specifier: ^0.0.1
-        version: 0.0.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: ^0.0.3
+        version: 0.0.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     devDependencies:
       '@eslint/js':
         specifier: ^9.29.0
@@ -1025,9 +1025,6 @@ packages:
     peerDependencies:
       typescript: '>=4.8.4'
 
-  tslib@2.8.1:
-    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
-
   type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
@@ -1053,8 +1050,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  veltix@0.0.1:
-    resolution: {integrity: sha512-PuoDwos8Cf+i7PmIgTFVtz/jT/kahpots0lI7lOyzQ/rsdgDcq1LyTjm1WYkJFmxOQ7VDIq+wkUhnWlr7AJMsQ==}
+  veltix@0.0.3:
+    resolution: {integrity: sha512-zTPUG2GBszqX+cmHOCL9otnWucmmdXownq8WRqAF0RjsbBNMpxsUzg6Y/hmbFJSQZlt0DqCaLVTKpUZyNEJ/hA==}
     peerDependencies:
       react: ^19.1.0
       react-dom: ^18.0.0
@@ -2039,8 +2036,6 @@ snapshots:
     dependencies:
       typescript: 5.8.3
 
-  tslib@2.8.1: {}
-
   type-check@0.4.0:
     dependencies:
       prelude-ls: 1.2.1
@@ -2067,11 +2062,10 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  veltix@0.0.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  veltix@0.0.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
-      tslib: 2.8.1
 
   vite@7.0.0:
     dependencies:

@@ -1,13 +1,11 @@
 import { Veltix } from 'veltix'
-import './App.css'
+import 'veltix/veltix.css'
 
 function App() {
 
   return (
     <>
-      <Veltix
-        value={{}}
-      />
+      <Veltix />
     </>
   )
 }
