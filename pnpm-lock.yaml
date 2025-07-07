@@ -15,8 +15,8 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
       veltix:
-        specifier: ^0.0.3
-        version: 0.0.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: ^0.0.5
+        version: 0.0.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     devDependencies:
       '@eslint/js':
         specifier: ^9.29.0
@@ -1050,8 +1050,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  veltix@0.0.3:
-    resolution: {integrity: sha512-zTPUG2GBszqX+cmHOCL9otnWucmmdXownq8WRqAF0RjsbBNMpxsUzg6Y/hmbFJSQZlt0DqCaLVTKpUZyNEJ/hA==}
+  veltix@0.0.5:
+    resolution: {integrity: sha512-KM9KwT2ftkH5OxKrrZDeOV3RZCB715/kPpX0ku+zLCk4NWYYDqjwtCu8F6E/aWevIr1VIFK7kBr+YXh1U+F/8w==}
     peerDependencies:
       react: ^19.1.0
       react-dom: ^18.0.0
@@ -2062,7 +2062,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  veltix@0.0.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  veltix@0.0.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
